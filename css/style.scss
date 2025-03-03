@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #000000;
-$primary1: #4b208c;
-$primary2: #371e71;
+$primary1: #101750;
+$primary2: #101750;
 
 @mixin main-font {
   font-family: "Poppins", sans-serif;
@@ -357,7 +357,7 @@ a:focus {
         margin-top: 25px;
 
         h5 {
-          color: #2e0e5f;
+          color: #101750;
           font-weight: 600;
           position: relative;
         }
@@ -365,7 +365,7 @@ a:focus {
 
       &:hover,
       &.active {
-        border-top: 15px solid #512a97;
+        border-top: 15px solid #101750;
       }
 
     }
@@ -399,7 +399,7 @@ a:focus {
     flex-direction: column;
 
     .img-box {
-      border: 5px solid #7b57b2;
+      border: 5px solid #101750;
       border-radius: 100%;
       overflow: hidden;
 
