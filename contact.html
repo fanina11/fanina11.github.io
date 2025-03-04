@@ -103,9 +103,35 @@
             <div>
               <input type="text" class="message-box" placeholder="Message" />
             </div>
+            <style>
+              .checkbox-group {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px; /
+                  font-family: Arial, sans-serif; 
+              }
+            
+              .checkbox-group input {
+                  width: 16px; 
+                  height: 16px;
+                  cursor: pointer;
+              }
+            
+              .checkbox-group label {
+                  font-size: 14px; 
+                  font-weight: bold; 
+                  cursor: pointer; 
+              }
+            </style>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="setuju" name="setuju" required>
+                <label for="setuju">Salinan respons akan dikirimkan melalui email Anda</label>
+            </div>
+            
             <div class="d-flex ">
               <button>
-                kirim
+                KIRIM
               </button>
             </div>
           </form>
